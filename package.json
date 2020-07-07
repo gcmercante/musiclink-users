@@ -1,0 +1,19 @@
+{
+  "name": "musiclink-user",
+  "version": "1.0.0",
+  "description": "User sign up module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gcmercante/musiclink-users.git"
+  },
+  "author": "Gabriel Mercante",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gcmercante/musiclink-users/issues"
+  },
+  "homepage": "https://github.com/gcmercante/musiclink-users#readme"
+}
