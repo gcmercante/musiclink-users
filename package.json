@@ -2,9 +2,9 @@
   "name": "musiclink-user",
   "version": "1.0.0",
   "description": "User sign up module",
-  "main": "index.js",
+  "main": "musiclink-user.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "daemon": "nodemon"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,13 @@
   "bugs": {
     "url": "https://github.com/gcmercante/musiclink-users/issues"
   },
-  "homepage": "https://github.com/gcmercante/musiclink-users#readme"
+  "homepage": "https://github.com/gcmercante/musiclink-users#readme",
+  "dependencies": {
+    "bluebird": "^3.7.2",
+    "dotenv": "^8.2.0",
+    "moment-timezone": "^0.5.31",
+    "mongoose": "^5.9.22",
+    "restify": "^8.5.1",
+    "restify-cors-middleware": "^1.1.1"
+  }
 }
