@@ -20,9 +20,11 @@ const insertController = {
             return res.send(500, 'invalid task');
         }
 
-        insert[type](req.params).then(() => {
+        insert[type](req.params)
+        .then(() => {
             return res.send(200, 'ok');
-        }).catch(e => {
+        })
+        .catch(e => {
             return res.send(500, e.message);
         });
     }
