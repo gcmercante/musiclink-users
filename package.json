@@ -17,7 +17,6 @@
   },
   "homepage": "https://github.com/gcmercante/musiclink-users#readme",
   "dependencies": {
-    "bluebird": "^3.7.2",
     "dotenv": "^8.2.0",
     "moment-timezone": "^0.5.31",
     "mongoose": "^5.9.22",
