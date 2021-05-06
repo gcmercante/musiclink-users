@@ -1,5 +1,4 @@
 const Producer = require(__base + 'app/models/producer');
-const util = require(__base + 'app/lib/util')
 
 const producer = {
     insertNewProducer: async (params) => {

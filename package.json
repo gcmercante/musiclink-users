@@ -17,9 +17,12 @@
   },
   "homepage": "https://github.com/gcmercante/musiclink-users#readme",
   "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
     "dotenv": "^8.2.0",
     "moment-timezone": "^0.5.31",
     "mongoose": "^5.9.22",
+    "redis": "^3.1.0",
     "restify": "^8.5.1",
     "restify-cors-middleware": "^1.1.1"
   }

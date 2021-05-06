@@ -11,6 +11,10 @@ const router = (server) => {
     server.post('/insert/user', user.validateToInsertIntoMongo);
     server.post('/update/user', user.validateToUpdateUser);
     server.post('/disable/user', user.validateToDisableUser);
+
+    server.post('/validate/user', user.validateUser);
+
+    server.post('/validateEmail', user.validateEmail);
 };
 
 module.exports = router;
